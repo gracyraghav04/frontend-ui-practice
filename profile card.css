@@ -1,0 +1,33 @@
+*{
+    box-sizing:border-box;
+}
+body{ display:flex;
+    background-color:azure;
+    align-items:center;
+    justify-content:center;
+    margin:40px;
+    overflow:auto;
+}
+   
+.container{
+    border: 2px solid black;
+    
+   
+    width:400px;
+    height:500px;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 350px;
+    border-radius:20px;
+    overflow:hidden;
+}
+.box1{
+    background-color:antiquewhite;
+    
+   
+   
+   
+}
+.box2{
+    background-color:rgb(110, 195, 235);
+}

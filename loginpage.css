@@ -1,0 +1,143 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: black;
+    display:flex;
+   justify-content:center;
+    
+   
+}
+.container{
+    display:flex;
+    flex-direction: column;
+     border: 1px solid #3a3a3a; 
+     margin-top:10px; 
+     height:auto;
+     width:340px;
+}
+    
+
+.item{
+   
+    margin:10px;
+    display:flex;
+    justify-content:center;
+   
+    width:auto;
+   
+   
+    
+   
+    
+}
+
+.item h1{
+    color:aliceblue;
+   
+    
+    font-size:40px;
+}
+input{
+    width:240px;
+     background-color: #121212;   
+   
+  
+   /* dark box */
+    border: 1px solid #3a3a3a;   /* thin grey border */
+    border-radius: 6px;          /* slight curve */
+    padding: 10px;
+    color: white;                /* input text */
+    font-size: 12px;
+}
+
+input::placeholder {
+    color: #9e9e9e;              /* light grey placeholder */
+}
+.item2{
+    margin-bottom: 3px;
+}
+.item3{
+   
+    margin-top: 3px;
+}
+.item4 input{
+    width:240px;
+    background-color:rgba(42, 146, 231, 0.514);
+    
+    font-size:14px;
+    border-radius: 6px;
+}
+.item5{
+    padding: 10px;
+    margin-top:5px;
+}
+.item5 a{
+    color:white;
+    text-decoration:none;
+}
+.item5 a:hover{
+   
+    text-decoration:  underline solid;
+}
+.item6{
+    text-align:center;
+    
+}
+.item6 a{
+    display:inline-flex;
+    align-items:center;
+   
+    gap:3px;
+    text-decoration:none;
+    color:rgb(46, 46, 199);
+    font-size: 15px;
+    
+
+}
+.image{
+    height:15px;
+    width:15px;
+}
+.container2{
+
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+     border: 1px solid #3a3a3a; 
+     margin-top:10px; 
+     height:50px;
+     width:340px;
+     color:white;
+     gap:2px;
+}
+.container2 a{
+    color:rgb(66, 115, 240);
+    text-decoration:none;
+}
+.item7{
+    display:flex;
+    color:#3a3a3a;
+    align-items:center;
+    margin-right:30px;
+    margin-left:30px;
+    
+
+}
+.line{
+ flex:1;
+    height:1px;
+     background-color: #262626;
+     margin-right: 10px;
+     margin-left: 10px;
+     width:max-content;
+
+
+}
+.or{
+    margin: 3px 3px;
+}
+
+
+
+

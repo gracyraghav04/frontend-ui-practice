@@ -1,0 +1,49 @@
+body{
+    background-color:bisque;
+}
+h1{
+    text-align:center;
+    color:solid black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:larger;
+    border-collapse:collapse;
+}
+table{
+    border:2px solid black;
+    height:400px;
+    width:600px;
+    background-color:antiquewhite;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:auto;
+
+}
+th,td{
+    border:2px solid black;
+    padding:0;
+
+
+
+}
+
+tr:first-child{
+    height:30%;
+    
+}
+tr:last-child{
+    height:20%;
+}
+img{
+    display:block;
+    margin:auto;
+}
+td{
+    height:10%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:brown;
+    padding:2px;
+}
+a{
+    display:block;
+    width:100px;
+    margin:auto;
+}

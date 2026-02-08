@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe card</title>
+    <style>
+       * {
+            box-sizing:border-box;
+        }
+       
+    .recipes{
+        border: 2px solid black;
+        
+        
+        height:auto;
+      
+        
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-template-rows: auto;
+        
+        align-items:stretch; 
+    }
+    div{
+        border:  2px solid black;
+        
+    
+        background-color: beige;
+        
+
+       
+    }
+   
+    .recipes > div:nth-child(2n){
+        border-left: none;
+
+    }
+    .recipes > div:nth-child(odd){
+        border-right:none;
+    }
+    
+
+    
+  
+
+
+
+    
+  
+    
+
+
+    
+    
+
+    
+    
+    .image{
+       display:flex;
+       align-items:center;
+       padding: 10px;
+        
+        
+       
+        
+        
+       
+       
+        
+    }
+    </style>
+</head>
+<body bgcolor="pink">
+    <Header>
+        <H1 style="background-color:yellow;"><center><u><b>MY RECIPE CARD</b></u></center></H1>
+        <hr>
+        <h2 style="font-weight: 200;"><center><i>What's in the menu??</i></center></h2>
+        
+        
+    </Header>
+    <main >
+        <div class="recipes">
+        
+        <div class="item1"><ul style="font-size:30px" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            <li>Masala Maggi</li>
+            
+       
+        </ul>
+        <ol> 
+        <li>Add water in pan</li>
+        <li>Add maggi and boil</li>
+        <li>Enter tastemaker</li>
+        <li>For extra taste,add maggi masala</li>
+        <li>Serve it with coriander on the top.TADA!!!!</li>
+            </ol></div>
+            <div class="image" >
+            <img src="maggi2.jpg" alt="Maggi " style="height:150px; width:150px" >
+
+            </div>
+       
+        <div class="item3"><ul style="font-size:30px" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> 
+        <li>Fruit Chaat</li>
+        
+    </ul> 
+    <ol>
+        <li>Cut your "make my day better fruits!"</li>
+        <li>Add the chaat masala</li>
+        <li>Put it in the refrigirator</li>
+        <li>Serve it cold!</li>
+    </ol></div>
+    <div class="image">
+        <img src="fruit.jpg" alt="Fruit chaat" style= "height:150px; width:150px">  
+    </div>
+    
+    <div><ul style="font-size:30px" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <li>Tea</li>
+        </ul>
+        <ol>
+            <li>Boil water in a pan</li>
+            <li>Add tea leaves</li>
+            <li>Grate ginger to make your chai Kadak </li>
+            <li>Add sugar and lots of milk</li>
+            <li>Your milk tea is ready</li>
+        </ol>
+    </div>
+    <div class="image">
+        <img src="tea.jpg" alt="tea" style="height:150px; width:150px">    </div>
+   <div>
+    <ul  style="font-size:30px" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        <li>Peanut butter cookies</li>
+
+    </ul>
+    <ol>
+        <li>Mix all three ingredients in a bowl to form a dough.
+</li>
+<li>Roll the dough into small balls and place them on a baking sheet</li>
+<li>Press down with a fork in a crisscross pattern</li>
+<li>Bake in a preheated oven until golden brown</li>
+    </ol>
+   </div>
+   <div class="image">
+    <img src="cookie.jpeg" alt="cookie" style="height:150px; width:150px">
+   </div>
+
+        
+    
+    
+</div>
+    </main>
+    
+    
+    
+</body>
+</html>
